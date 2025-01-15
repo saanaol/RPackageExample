@@ -23,7 +23,6 @@
 #' ols_model_function(data, response_variable = "y", explanatory_variables = c("x"))
 #'
 #' @export
-
 ols_model_function <- function(data, response_variable, explanatory_variables) {
   
   # Checking that data contains all input variables 
